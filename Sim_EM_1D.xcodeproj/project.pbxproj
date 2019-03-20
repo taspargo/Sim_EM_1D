@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E97F2045223EA627004A8116 /* libwx_baseu-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97F2044223EA626004A8116 /* libwx_baseu-3.1.a */; };
+		E97F2049223EA6FF004A8116 /* libwx_osx_cocoau_gl-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97F2048223EA6FF004A8116 /* libwx_osx_cocoau_gl-3.1.a */; };
+		E97F204B223EA732004A8116 /* libwx_osx_cocoau_core-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97F204A223EA732004A8116 /* libwx_osx_cocoau_core-3.1.a */; };
+		E97F2063223EC17A004A8116 /* libwxregexu-3.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E97F2061223EC124004A8116 /* libwxregexu-3.1.a */; };
+		E97F2065223EC296004A8116 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97F2064223EC296004A8116 /* OpenGL.framework */; };
+		E97F206B223ECB37004A8116 /* EM_equations.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97F2069223ECB37004A8116 /* EM_equations.cpp */; };
+		E97F206E223F5BDB004A8116 /* CPlot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97F206D223F5BDB004A8116 /* CPlot.cpp */; };
+		E97F2071223F6AD5004A8116 /* wxGLString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E97F2070223F6AD5004A8116 /* wxGLString.cpp */; };
+		E9C88830223D5D1C00F599A1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9C8882E223D5D1C00F599A1 /* main.cpp */; };
+		E9F08C5B21F2F79200DA4677 /* wxrelease.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9F08C5721F2F79200DA4677 /* wxrelease.xcconfig */; };
+		E9F08C5C21F2F79200DA4677 /* wxcocoa.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9F08C5821F2F79200DA4677 /* wxcocoa.xcconfig */; };
+		E9F08C5D21F2F79200DA4677 /* wxdebug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9F08C5921F2F79200DA4677 /* wxdebug.xcconfig */; };
+		E9F08C6421F2FEC700DA4677 /* wx.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9F08C6321F2FEC700DA4677 /* wx.xcconfig */; };
+		E9F08C6621F2FEE500DA4677 /* wxvers.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E9F08C6521F2FEE500DA4677 /* wxvers.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E97F2044223EA626004A8116 /* libwx_baseu-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_baseu-3.1.a"; path = "../../../wxWidgets/build-cocoa-debug/lib/libwx_baseu-3.1.a"; sourceTree = "<group>"; };
+		E97F2048223EA6FF004A8116 /* libwx_osx_cocoau_gl-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_gl-3.1.a"; path = "../../../wxWidgets/build-cocoa-debug/lib/libwx_osx_cocoau_gl-3.1.a"; sourceTree = "<group>"; };
+		E97F204A223EA732004A8116 /* libwx_osx_cocoau_core-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwx_osx_cocoau_core-3.1.a"; path = "../../../wxWidgets/build-cocoa-debug/lib/libwx_osx_cocoau_core-3.1.a"; sourceTree = "<group>"; };
+		E97F2061223EC124004A8116 /* libwxregexu-3.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libwxregexu-3.1.a"; path = "../../../wxWidgets/build-cocoa-debug/lib/libwxregexu-3.1.a"; sourceTree = "<group>"; };
+		E97F2064223EC296004A8116 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E97F2066223ECB36004A8116 /* EM_equations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EM_equations.h; sourceTree = "<group>"; };
+		E97F2069223ECB37004A8116 /* EM_equations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EM_equations.cpp; sourceTree = "<group>"; };
+		E97F206C223F5BDB004A8116 /* CPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlot.h; sourceTree = "<group>"; };
+		E97F206D223F5BDB004A8116 /* CPlot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPlot.cpp; sourceTree = "<group>"; };
+		E97F206F223F6AD5004A8116 /* wxGLString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wxGLString.h; sourceTree = "<group>"; };
+		E97F2070223F6AD5004A8116 /* wxGLString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = wxGLString.cpp; sourceTree = "<group>"; };
+		E9C8882D223D5D1C00F599A1 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		E9C8882E223D5D1C00F599A1 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E9F08C4221F2F75100DA4677 /* Sim_EM_1D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sim_EM_1D.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9F08C5621F2F79200DA4677 /* Info_cocoa.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info_cocoa.plist; sourceTree = "<group>"; };
+		E9F08C5721F2F79200DA4677 /* wxrelease.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxrelease.xcconfig; sourceTree = "<group>"; };
+		E9F08C5821F2F79200DA4677 /* wxcocoa.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxcocoa.xcconfig; sourceTree = "<group>"; };
+		E9F08C5921F2F79200DA4677 /* wxdebug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxdebug.xcconfig; sourceTree = "<group>"; };
+		E9F08C6321F2FEC700DA4677 /* wx.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wx.xcconfig; sourceTree = "<group>"; };
+		E9F08C6521F2FEE500DA4677 /* wxvers.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = wxvers.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9F08C3F21F2F75100DA4677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97F2065223EC296004A8116 /* OpenGL.framework in Frameworks */,
+				E97F2063223EC17A004A8116 /* libwxregexu-3.1.a in Frameworks */,
+				E97F204B223EA732004A8116 /* libwx_osx_cocoau_core-3.1.a in Frameworks */,
+				E97F2049223EA6FF004A8116 /* libwx_osx_cocoau_gl-3.1.a in Frameworks */,
+				E97F2045223EA627004A8116 /* libwx_baseu-3.1.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9F08C3921F2F75100DA4677 = {
+			isa = PBXGroup;
+			children = (
+				E97F206F223F6AD5004A8116 /* wxGLString.h */,
+				E97F2070223F6AD5004A8116 /* wxGLString.cpp */,
+				E97F206C223F5BDB004A8116 /* CPlot.h */,
+				E97F206D223F5BDB004A8116 /* CPlot.cpp */,
+				E97F2066223ECB36004A8116 /* EM_equations.h */,
+				E97F2069223ECB37004A8116 /* EM_equations.cpp */,
+				E9C8882D223D5D1C00F599A1 /* main.h */,
+				E9C8882E223D5D1C00F599A1 /* main.cpp */,
+				E9F08C6321F2FEC700DA4677 /* wx.xcconfig */,
+				E9F08C6521F2FEE500DA4677 /* wxvers.xcconfig */,
+				E9F08C5621F2F79200DA4677 /* Info_cocoa.plist */,
+				E9F08C5821F2F79200DA4677 /* wxcocoa.xcconfig */,
+				E9F08C5921F2F79200DA4677 /* wxdebug.xcconfig */,
+				E9F08C5721F2F79200DA4677 /* wxrelease.xcconfig */,
+				E9F08C4321F2F75100DA4677 /* Products */,
+				E9F08C6021F2F93F00DA4677 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9F08C4321F2F75100DA4677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9F08C4221F2F75100DA4677 /* Sim_EM_1D.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9F08C6021F2F93F00DA4677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E97F2064223EC296004A8116 /* OpenGL.framework */,
+				E97F2061223EC124004A8116 /* libwxregexu-3.1.a */,
+				E97F204A223EA732004A8116 /* libwx_osx_cocoau_core-3.1.a */,
+				E97F2048223EA6FF004A8116 /* libwx_osx_cocoau_gl-3.1.a */,
+				E97F2044223EA626004A8116 /* libwx_baseu-3.1.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9F08C4121F2F75100DA4677 /* Sim_EM_1D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F08C5321F2F75200DA4677 /* Build configuration list for PBXNativeTarget "Sim_EM_1D" */;
+			buildPhases = (
+				E9F08C3E21F2F75100DA4677 /* Sources */,
+				E9F08C3F21F2F75100DA4677 /* Frameworks */,
+				E9F08C4021F2F75100DA4677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sim_EM_1D;
+			productName = wx_test;
+			productReference = E9F08C4221F2F75100DA4677 /* Sim_EM_1D.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9F08C3A21F2F75100DA4677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Thomas Spargo";
+				TargetAttributes = {
+					E9F08C4121F2F75100DA4677 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = E9F08C3D21F2F75100DA4677 /* Build configuration list for PBXProject "Sim_EM_1D" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9F08C3921F2F75100DA4677;
+			productRefGroup = E9F08C4321F2F75100DA4677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F08C4121F2F75100DA4677 /* Sim_EM_1D */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9F08C4021F2F75100DA4677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9F08C6421F2FEC700DA4677 /* wx.xcconfig in Resources */,
+				E9F08C5D21F2F79200DA4677 /* wxdebug.xcconfig in Resources */,
+				E9F08C6621F2FEE500DA4677 /* wxvers.xcconfig in Resources */,
+				E9F08C5B21F2F79200DA4677 /* wxrelease.xcconfig in Resources */,
+				E9F08C5C21F2F79200DA4677 /* wxcocoa.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9F08C3E21F2F75100DA4677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E97F2071223F6AD5004A8116 /* wxGLString.cpp in Sources */,
+				E9C88830223D5D1C00F599A1 /* main.cpp in Sources */,
+				E97F206B223ECB37004A8116 /* EM_equations.cpp in Sources */,
+				E97F206E223F5BDB004A8116 /* CPlot.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E9F08C5121F2F75200DA4677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F08C5921F2F79200DA4677 /* wxdebug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /Users/Thomas/wxWidgets/include/;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		E9F08C5221F2F75200DA4677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F08C5721F2F79200DA4677 /* wxrelease.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = /Users/Thomas/wxWidgets/include/;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		E9F08C5421F2F75200DA4677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F08C5821F2F79200DA4677 /* wxcocoa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(WXROOT)/include/wx/wxprec.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(WX_PREPROCESSOR_DEFINITIONS)",
+					"${inherited}",
+					"$(WXPLATFORM)",
+					"__WXMAC_XCODE__=1",
+					WXBUILDING,
+					"wxUSE_BASE-1",
+					"WX_PRECOMP=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(WXROOT)/build/osx/setup/cocoa/include",
+					"$(WXROOT)/include",
+				);
+				INFOPLIST_FILE = Info_cocoa.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/Thomas/wxWidgets/build-cocoa-debug/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wxwidgets.Sim-EM-1D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WXPLATFORM = "\"__WXOSX_$(WXTOOLKITUPPER)__\"";
+				WXROOT = /Users/Thomas/wxWidgets;
+			};
+			name = Debug;
+		};
+		E9F08C5521F2F75200DA4677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9F08C5821F2F79200DA4677 /* wxcocoa.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "$(WXROOT)/include/wx/wxprec.h";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(WX_PREPROCESSOR_DEFINITIONS)",
+					"${inherited}",
+					"$(WXPLATFORM)",
+					"__WXMAC_XCODE__=1",
+					WXBUILDING,
+					"wxUSE_BASE-1",
+					"WX_PRECOMP=1",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(WXROOT)/build/osx/setup/cocoa/include",
+					"$(WXROOT)/include",
+				);
+				INFOPLIST_FILE = Info_cocoa.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/Thomas/wxWidgets/build-cocoa-debug/lib";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.wxwidgets.Sim-EM-1D";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WXPLATFORM = "\"__WXOSX_$(WXTOOLKITUPPER)__\"";
+				WXROOT = /Users/Thomas/wxWidgets;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9F08C3D21F2F75100DA4677 /* Build configuration list for PBXProject "Sim_EM_1D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F08C5121F2F75200DA4677 /* Debug */,
+				E9F08C5221F2F75200DA4677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F08C5321F2F75200DA4677 /* Build configuration list for PBXNativeTarget "Sim_EM_1D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F08C5421F2F75200DA4677 /* Debug */,
+				E9F08C5521F2F75200DA4677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9F08C3A21F2F75100DA4677 /* Project object */;
+}
